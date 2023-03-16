@@ -1,0 +1,65 @@
+/*********************TAG SELECTORS*********************/
+p {
+  color: aliceblue;
+}
+td {
+  width: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #66bfbf;
+}
+
+/*********************CLASS SELECTORS*********************/
+.social-media-icons {
+  font-size: 30px;
+}
+.bağlantılar{
+  margin-top: 48%;
+}
+.profil {
+  height: 200px;
+}
+.small-text {
+  font-size: 12px;
+}
+.background {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+}
+
+/*********************HEADER*********************/
+
+/* Start Navigation Bar */
+
+.navbar {
+  background-color: #a67a14;
+  color: #000000;
+  border-radius: 4px;
+  width: 100vw;
+  max-width: 820px;
+  margin: 20px auto 0;
+}
+
+.navbar .menu {
+  display: flex;
+  position: relative;
+}
+
+.navbar .menu li {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.navbar .menu a {
+  flex: 1;
+  justify-content: center;
+  display: inline-flex;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+}
+
+/* End Navigation Bar */
