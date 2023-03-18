@@ -1,0 +1,92 @@
+/*********************NAVBAR*********************/
+.navbar {
+  background-color: #fd8f00;
+  border-radius: 15px;
+  width: 100vw;
+  max-width: 820px;
+  margin: 15px auto 0;
+  position: absolute;
+  right: 100px;
+}
+.navbar .menu {
+  display: flex;
+  position: abs;
+}
+.navbar .menu li {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+.navbar .menu a {
+  flex: 1;
+  justify-content: center;
+  display: inline-flex;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+}
+/*********************TAG SELECTORS*********************/
+html{
+  background: url(background4-7.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+/*********************CLASS SELECTORS*********************/
+.bağlantılar{
+  position: absolute;
+  right: 20px;
+  bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 50px;
+  width: 250px;
+  height: 60px;
+}
+.profil {
+  height: 200px;
+}
+.small-text {
+  font-size: 12px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.5;
+}
+.metin{
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  color: #d5cea1;
+}
+.y1{
+position: absolute;
+top: 120px;
+right: 450px;
+}
+.y2{
+  position: absolute;
+  top: 420px;
+  right: 100px;
+}
