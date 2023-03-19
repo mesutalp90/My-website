@@ -1,0 +1,126 @@
+body {
+    background-image: url("metal1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+  }
+  
+  * { margin: 0; padding: 0; }
+        
+  html { 
+      font-size: 16px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px; /* set the height to 50px */
+  }
+  
+  nav img {
+    height: 40px; /* adjust the height of the logo */
+    padding: 5px; /* add some padding to the logo */
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* make the list items fill the entire height of the navigation bar */
+  }
+  
+  nav li {
+    margin: 0 10px; /* adjust the margin of the list items */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px; /* adjust the padding of the links */
+  }
+/* Set a default font size for the entire document */
+  
+  /* Adjust the font size for smaller screens */
+  @media screen and (min-width: 768px) {
+    body {
+      background-image: url("metal.gif");
+    }
+  }
+  
+  /* Make the main content container responsive */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Adjust the container width for smaller screens */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  .intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 4rem;
+    color: white;
+  }
+  
+  .intro p {
+    font-size: 2rem;
+    color: white;
+  }
+  footer {
+    background-color: black;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 400px) {
+    .video-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
